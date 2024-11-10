@@ -31,7 +31,7 @@ const NewsBoard = ({category}) => {
     }, [category]);
   return (
     <>
-      <h2 className='text-center'>Latest <span className='badge bg-primary mt-4'>News</span></h2>
+      <h2 className='text-center'>Latest <span className='badge bg-primary mt-4'>News.</span></h2>
       {
         loading ? (
         <div className='text-center mt-5'>
